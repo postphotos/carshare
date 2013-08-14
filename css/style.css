@@ -1,0 +1,62 @@
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default; }
+
+  h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+  h2 {
+  text-transform: uppercase;
+  }
+
+  h4, .c * {
+  text-align: center;
+}
+
+.columns iframe {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+}
+
+span#first {
+  font-size: 130%;
+  font-weight: 700;
+}
+
+.panel p, .panel hr {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+
+.panel p.n:before {
+  content: normal;
+}
+
+.panel p:before {
+  content: "+ ";
+}
+
+
+
+.first {
+  background: #FFE168;
+}
+.third {
+  background: #8c7853; 
+}
+
+.panel h5, .panel hr {
+  color: black;
+}
